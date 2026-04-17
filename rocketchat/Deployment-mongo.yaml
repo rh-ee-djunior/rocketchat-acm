@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: rocketchat-db
-          image: docker.io/mongo:4.0
+          image: image-registry.openshift-image-registry.svc:5000/rocketchat/mongo:4.0
           command:
             - /bin/sh
             - -c
